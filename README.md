@@ -24,3 +24,5 @@ Los archivos de los cuales no se especifica la temperatura, entendemos que T=0.7
 
 
 La carpeta midi contiene arxivos python necesarios para la ejecución del codigo principal. Los archivos dee esta carpeta no se deben modificar.
+
+El archivo zip DS contiene los datasets utilizados.
