@@ -1,8 +1,11 @@
 # DeeepLearningFinalProject
 El codigo adjunto nos permitirá generar melodias de piano entrenando previamente diferentes bases de datos (con archivos midi) en una RNN.
 
+
 El notebook musicGeneration.ipynb es el archivo que permite entrenar nuestra red a partir de un dataset y generar melodias.
+
 El notebook musicGenerationAndTransfer.ipynb es el archivo que nos permite realizar el transfer. Funciona practicamente igual que el notebook anterior pero añade esta nueva funcionalidad.
+
 
 La carpeta Results contiene los resultados obtenidos de las diferentes pruevas:
   - transfer_muse_chorales01.mid --> transfer learning con datasets MuseData y JSB ReducedChorales
@@ -16,6 +19,7 @@ La carpeta Results contiene los resultados obtenidos de las diferentes pruevas:
   - muse02.mid --> train con Musedata
   - ChoralesReduced01.mid --> train con JSB ReducedChorales
   - chorales01.mid --> train con JSB Chorales
+
 Los archivos de los cuales no se especifica la temperatura, entendemos que T=0.7 y si no especifica epochs, entendemos que epochs = 2.
 
 
