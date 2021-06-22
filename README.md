@@ -1,4 +1,5 @@
 # DeeepLearningFinalProject
+El codigo adjunto nos permitirá generar melodias de piano entrenando previamente diferentes bases de datos (con archivos midi) en una RNN.
 
 El notebook musicGeneration.ipynb es el archivo que permite entrenar nuestra red a partir de un dataset y generar melodias.
 El notebook musicGenerationAndTransfer.ipynb es el archivo que nos permite realizar el transfer. Funciona practicamente igual que el notebook anterior pero añade esta nueva funcionalidad.
